@@ -16,6 +16,6 @@ function showSlides() {
 function playvid() {
   document.getElementById('playbutton').style.display = "none";
   document.getElementById('slideshow-container').style.display = "none";
-  document.getElementById('slideshow-container').style.display = "inline";
+  document.getElementById('this').style.display = "default";
   document.getElementById('this').play();
 }
