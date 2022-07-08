@@ -29,5 +29,5 @@ function playvid() {
   document.getElementById('link').style.display = "none";
   vid.style.display = "initial";
   vid.play();
-  openFullscreen();
+  // openFullscreen(); 
 }
