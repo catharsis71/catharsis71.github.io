@@ -30,4 +30,5 @@ function playvid() {
   document.getElementById('slideshow-container').style.display = "none";
   vid.style.display = "initial";
   vid.play();
+  openFullscreen();
 }
