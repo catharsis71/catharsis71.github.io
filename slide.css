@@ -1,19 +1,18 @@
 ﻿* {box-sizing:border-box}
 
 #playbutton {
-  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   font:48px/1.5 sans-serif;
   color:white;
   text-shadow:0 0 0.5em black;
   top:0;
   bottom:0;
-  margin:auto;
   z-index:9001;
   position:absolute;
   width:100%;
 }
-
-#playbuttontext { vertical-align: middle; } 
 
 body { margin: 0 }
 
