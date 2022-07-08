@@ -1,6 +1,6 @@
 ﻿* {box-sizing:border-box}
 
-@playbutton {
+#playbutton {
   text-align:center;
   font:48px/1.5 sans-serif;
   color:white;
