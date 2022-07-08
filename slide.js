@@ -12,3 +12,10 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 1000);
 }
+
+function playvid() {
+  document.getElementById('playbutton').style.display = "none";
+  document.getElementById('slideshow-container').style.display = "none";
+  document.getElementById('slideshow-container').style.display = "default";
+  document.getElementById('this').play();
+}
