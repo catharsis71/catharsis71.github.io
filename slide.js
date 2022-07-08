@@ -1,6 +1,8 @@
 ﻿let slideIndex = 0;
 showSlides();
 
+var vid = document.getElementById("this");
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -13,9 +15,19 @@ function showSlides() {
   setTimeout(showSlides, 1000);
 }
 
+function openFullscreen() {
+  if (vid.requestFullscreen) {
+    vid.requestFullscreen();
+  } else if (vid.webkitRequestFullscreen) { /* Safari */
+    vid.webkitRequestFullscreen();
+  } else if (vid.msRequestFullscreen) { /* IE11 */
+    vid.msRequestFullscreen();
+  }
+}
+
 function playvid() {
   document.getElementById('playbutton').style.display = "none";
   document.getElementById('slideshow-container').style.display = "none";
-  document.getElementById('this').style.display = "initial";
-  document.getElementById('this').play();
+  vid.style.display = "initial";
+  vid.play();
 }
