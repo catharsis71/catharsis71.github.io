@@ -1,5 +1,18 @@
 ﻿* {box-sizing:border-box}
 
+@playbutton {
+  text-align:center;
+  font:48px/1.5 sans-serif;
+  color:white;
+  text-shadow:0 0 0.5em black;
+  top:0;
+  bottom:0;
+  margin:auto;
+  padding:0;
+  overflow: hidden;
+  z-index:9001;
+}
+
 img {
   width:100%;
   height:100%;
