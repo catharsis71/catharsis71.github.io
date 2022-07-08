@@ -23,7 +23,7 @@
     <!--<script src="../common/skyqueens.js"></script>-->   
   </head>
   <body id="noscroll-body">
-    <a href="#" onclick="playvid()">
+    <a href="#" onclick="playvid()" id="link">
     <div id="playbutton">▶</div>
     <div id="slideshow-container">
       <div class="mySlides fade"><img src="1.jpg" alt=""></div>
@@ -37,7 +37,8 @@
       <div class="mySlides fade"><img src="9.jpg" alt=""></div>
       <div class="mySlides fade"><img src="10.jpg" alt=""></div>
     </div>
-    <video id="this" style="display:none;object-fit:cover;width:100%;height:100%" preload="auto" poster="loading.webp">
+    </a>
+    <video id="this" style="display:none;object-fit:cover;width:100%;height:100%" loop preload="auto" poster="loading.webp">
       <source src="https://cracky-chan.com/files/not-a-rickroll.mp4" type="video/mp4">
       TEST PLEASE IGNORE
     </video>
