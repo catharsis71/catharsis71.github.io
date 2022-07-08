@@ -1,0 +1,237 @@
+#noscroll-body,
+#noscroll-body-noanim,
+#noscroll-body-500,
+#noscroll-body-600,
+#scrollable-body {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#noscroll-body,
+#noscroll-body-noanim,
+#noscroll-body-500,
+#noscroll-body-600 {
+  height: 100%;
+  overflow: hidden;
+  position: fixed
+}
+
+#noscroll-body-noanim {
+  animation: none;
+}
+
+#scrollable-body {}
+
+#me1,
+#me2 {
+  border-radius: 2%;
+  max-width: 95%;
+  max-height: calc(100% - 160px);
+  min-height: 50%;
+  min-width: 30%;
+  border: 3px solid #555;
+  object-fit: contain;
+  background-color: gray;
+}
+
+#me2 {
+  display: none
+}
+
+#header {
+  border: 3px solid #555;
+  border-radius: 2%;
+  max-width: 80%
+}
+
+#flexbox,
+#flexbox-500,
+#flexbox-600 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100%
+}
+
+
+#mainimg,
+#mainimg-50,
+#mainimg-500,
+#mainimg-600 {
+  border-radius: 10%;
+  object-fit: scale-down;
+  max-width: 95%;
+  height: auto;
+  width: auto
+}
+
+#mainimg {
+  max-height: 95%;
+}
+
+#mainimg-500 {
+  max-height: max(200px, calc(100vh - 300px));
+}
+
+#mainimg-600 {
+  max-height: max(200px, calc(100vh - 400px));
+}
+
+#mainimg-50 {
+  max-height: calc((100vh - 50px)*0.95);
+}
+
+
+#mainimg-novert {
+  border-radius: 10%;
+  max-width: min(95%, 640px);
+  height: auto;
+  width: auto
+}
+
+.floatleft {
+  float: left
+}
+
+.floatright {
+  float: right
+}
+
+.white-no-margin {
+  color: white;
+  margin: 0
+}
+
+.white-no-margin-lrpadding {
+  color: white;
+  margin: 0;
+  padding: 0 5px 0 5px
+}
+
+.floatleft-bottom {
+  float: left;
+  position: relative;
+  bottom: -8px
+}
+
+.floatright-bottom {
+  float: right;
+  position: relative;
+  bottom: -8px
+}
+
+#elemID031021 {
+  line-height: 16px;
+  position: relative;
+  height: 30.5px;
+  /* display: inline-block */
+}
+
+#tmipTrT0, [id^='tmipTrT0'] {
+  width: 116px;
+  height: 28px;
+  max-width: 100%;
+}
+
+.white-text-hide-link {
+  color: white;
+  text-decoration: none
+}
+
+.black-text-hide-link {
+  color: black;
+  text-decoration: none
+}
+
+.eyebleed-text-hide-link {
+  animation: argh-my-eyes2 6s infinite;
+  text-decoration: none
+}
+
+/*delete this*/
+#main-h1 {
+  margin: 0;
+  color: white;
+}
+
+.main-paragraph {
+  color: white;
+  max-width: 85%;
+  margin: 0 auto 15px auto;
+  width: 800px
+}
+
+#gcse-searchbox-container {
+  width: 70%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.youtube-embed {
+  border: none;
+  max-width: 100%
+}
+
+.fullwidth {
+  width: 100%
+}
+
+.nomargin {
+  margin: 0
+}
+
+.width100 {
+  width: 100px
+}
+
+.monospace-p {
+  font-family: courier;
+  max-width: 95%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip
+}
+
+.no {
+  text-decoration: line-through;
+  color: white;
+}
+
+@media only screen and (max-height: 500px) {
+  #flexbox-500 {
+    margin-top: 10px;
+    justify-content: flex-start
+  }
+
+  #noscroll-body-500 {
+    overflow: auto;
+    position: static;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #flexbox-600 {
+    margin-top: 10px;
+    justify-content: flex-start
+  }
+
+  #noscroll-body-600 {
+    overflow: auto;
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .monospace-p {
+    line-height: 1.6
+  }
+}
