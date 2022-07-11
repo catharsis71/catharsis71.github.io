@@ -27,6 +27,7 @@ function openFullscreen() {
 
 function playvid() {
   document.getElementById('playbutton').style.display = "none";
+  document.getElementById('slideshow-container').style.display = "none";
   vid.style.display = "initial";
   vid.play();
   //openFullscreen();

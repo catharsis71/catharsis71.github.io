@@ -12,6 +12,7 @@
   z-index:9000;
   position:absolute;
   width:100%;
+  text-decoration: none;
 }
 
 body { margin: 0 }
