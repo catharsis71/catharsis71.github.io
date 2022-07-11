@@ -5,13 +5,16 @@
   justify-content:center;
   align-items:center;
   font:20vw sans-serif;
-  color:gray;
   text-shadow:0 0 0.5em red;
   top:0;
   bottom:0;
   z-index:9000;
   position:absolute;
   width:100%;
+}
+
+#link {
+  color:gray;
   text-decoration: none;
 }
 
